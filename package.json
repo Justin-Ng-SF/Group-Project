@@ -1,0 +1,19 @@
+{
+  "name": "final-project-s-h-i-e-l-d",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sfsu-667-spring-2020/final-project-s-h-i-e-l-d.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sfsu-667-spring-2020/final-project-s-h-i-e-l-d/issues"
+  },
+  "homepage": "https://github.com/sfsu-667-spring-2020/final-project-s-h-i-e-l-d#readme"
+}

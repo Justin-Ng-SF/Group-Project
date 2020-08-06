@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.background {
+  background-color: gray;
+  height: contain;
+}
+
+.nav-bar {
+  background-color: orange;
+  text-align: left;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.border {
+  margin-left: 60px;
+  margin-right: 60px;
+  background-color: white;
+  min-height: 1000px;
+  height: auto;
+  
+}
+
+.block {
+  margin: 10px;
+}
+
+.Seller-Input {
+  margin: 30px;
+}
+
+.addToCart {
+  box-shadow: antiquewhite;
+}
+
+.itemImage {
+  height: auto;
+  min-width: 23.5rem;
+  max-width: auto !important;
+  max-height: 37.5rem;
+}
+
+.itemName {
+  font-size: larger ;
+}
+
+.itemDesc {
+  text-align: justify;
+}
+
+.bp3-menu{
+  min-width: 35px;
+}
+
+.purchase-history{
+  min-width: 650px;
+  box-shadow: 2px 2px lightgray;
+  background-color: aliceblue;
+}
+
+.purchase-items{
+  box-shadow: 2px 2px lightgray;
+  background-color: whitesmoke;
+}
+
+.order-img{
+  max-width: 3.75rem;
+  max-height: 4.25rem;
+}
+
+.order-items{
+  min-width: 500px;
+}
